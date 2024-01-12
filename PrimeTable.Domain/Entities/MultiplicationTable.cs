@@ -20,6 +20,7 @@ namespace PrimeTable.Domain.Entities
             GenerateTableGrid();
         }
 
+        //This method generates the matrix of GridCells based on the number of prime numbers provided
         private void GenerateTableGrid()
         {
             TableGrid = new GridCell[Size, Size];

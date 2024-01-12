@@ -10,7 +10,7 @@ namespace PrimeTable.Domain.ValueObjects
     {
         public PrimeNumber RowValue { get; }
         public PrimeNumber ColumnValue { get; }
-        public int Product => RowValue.Value * ColumnValue.Value;
+        public int Product => RowValue.Value * ColumnValue.Value; //The product of the two prime numbers is provided here to make it easier for later use in the frontend and to encapsulate each GridCell
 
         public GridCell(PrimeNumber rowValue, PrimeNumber columnValue)
         {
