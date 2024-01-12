@@ -1,5 +1,5 @@
 
-Please, note that this project is over engineered on purpose just to show and higlight my level of coding
+Please, note that this project is over engineered on purpose just to show and higlight coding skills
 
 In the solution provided, I have implemented the following.
 - Applied DDD to analyse the domains and create entities
