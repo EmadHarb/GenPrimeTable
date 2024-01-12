@@ -1,3 +1,6 @@
+using PrimeTable.Application.Services;
+using PrimeTable.Domain.Interfaces;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -6,6 +9,12 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+// Adding dependency injection for IPrimeNumberService
+builder.Services.AddScoped<IPrimeNumberService, PrimeNumberService>();
+// Adding dependency injection for IMultiplicationTableService
+builder.Services.AddScoped<IMultiplicationTableService, MultiplicationTableService>();
+builder.Services.AddControllers().AddNewtonsoftJson();
 
 var app = builder.Build();
 
