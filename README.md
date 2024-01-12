@@ -7,6 +7,7 @@ In the solution provided, I have implemented the following.
 - Applied TDD to create Unit Tests using XUnit test projects
 - Created an API to provide the service for the frontend
 - Created a web page to accept input and show the output
+- Prime Number Generation: My current implementation for identifying prime numbers utilizes a straightforward algorithm. This approach is memory-efficient, though it might exhibit slower performance with large N user input, given its time complexity of O(n*sqrt(m)). On the other hand, the Sieve of Eratosthenes algorithm offers a more favorable time complexity of O(n log log n). With an opportunity to delve deeper into this algorithm, I would consider adopting it for enhanced efficiency.
 
 
 Functional requirements
