@@ -47,8 +47,8 @@ Non-Functional requirements
     The prime number generation algorithm should be efficient, especially for larger values of N.
 
 
-Technology Stack: 
-  
-  .Net Core
-  ASP.net
-  xUnit
+Technology Stack: (.Net Core, ASP.net, xUnit)
+
+
+  ![PrimeTable](https://github.com/EmadHarb/GenPrimeTable/assets/9819219/d2df5235-a7e1-415f-8320-4245817f1182)
+
