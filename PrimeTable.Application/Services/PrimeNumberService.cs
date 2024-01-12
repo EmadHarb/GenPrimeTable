@@ -11,7 +11,7 @@ namespace PrimeTable.Application.Services
     public class PrimeNumberService : IPrimeNumberService
     {
         //This method will generate and return all the n prime numbers starting from 2 
-        //Starting from 2 and check if the number is prime and add it to the array until reaching the required n numbers
+        //Starting from 2 and check if the number is prime then add it to the array until reaching the required n numbers
         public List<PrimeNumber> GenerateNPrimeNumbers(int n)
         {
             if (n < 1) throw new ArgumentException();

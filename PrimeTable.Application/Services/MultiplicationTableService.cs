@@ -20,7 +20,7 @@ namespace PrimeTable.Application.Services
                 throw new ArgumentException("Size must be at least 1", nameof(size));
             }
 
-            var primeNumbers = _primeNumberService.GenerateNPrimeNumbers(size); //.Select(num => new PrimeNumber(num)).ToList();
+            var primeNumbers = _primeNumberService.GenerateNPrimeNumbers(size);
             return new MultiplicationTable(primeNumbers);
         }
     }

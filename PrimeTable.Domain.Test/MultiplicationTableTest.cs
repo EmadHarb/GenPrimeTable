@@ -46,5 +46,26 @@ namespace PrimeTable.Domain.Test
         }
 
 
+        [Fact]
+        public void MultiplicationTable_Constructor_ShouldPopulateTableGridCorrectly()
+        {
+            var primeNumbers = new List<PrimeNumber> { new PrimeNumber(2), new PrimeNumber(3), new PrimeNumber(5) };
+            int expectedSize = primeNumbers.Count;
+
+            var table = new MultiplicationTable(primeNumbers);
+
+            Assert.NotNull(table.TableGrid);
+            Assert.Equal(expectedSize, table.TableGrid.GetLength(0));
+            Assert.Equal(expectedSize, table.TableGrid.GetLength(1));
+
+            for (int i = 0; i < expectedSize; i++)
+            {
+                for (int j = 0; j < expectedSize; j++)
+                {
+                    var expectedProduct = primeNumbers[i].Value * primeNumbers[j].Value;
+                    Assert.Equal(expectedProduct, table.TableGrid[i, j].Product);
+                }
+            }
+        }
     }
 }

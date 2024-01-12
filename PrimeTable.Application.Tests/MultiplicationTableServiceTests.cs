@@ -1,4 +1,6 @@
 ﻿using PrimeTable.Application.Services;
+using PrimeTable.Domain.Entities;
+using PrimeTable.Domain.ValueObjects;
 
 namespace PrimeTable.Application.Tests
 {
@@ -38,6 +40,7 @@ namespace PrimeTable.Application.Tests
             Assert.Equal(size, result.PrimeNumbers.Count);
             Assert.Equal(size, result.Size);
         }
+
     }
 
 }
