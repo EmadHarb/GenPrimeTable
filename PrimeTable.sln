@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeTable.API", "PrimeTabl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeTable.Domain.Test", "PrimeTable.Domain.Test\PrimeTable.Domain.Test.csproj", "{BC81CB79-EC0C-4D61-9067-1402D4544080}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeTable.Application.Tests", "PrimeTable.Application.Tests\PrimeTable.Application.Tests.csproj", "{EB292217-61CD-4728-AF27-4F3CDF30A64E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BC81CB79-EC0C-4D61-9067-1402D4544080}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC81CB79-EC0C-4D61-9067-1402D4544080}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC81CB79-EC0C-4D61-9067-1402D4544080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB292217-61CD-4728-AF27-4F3CDF30A64E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB292217-61CD-4728-AF27-4F3CDF30A64E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB292217-61CD-4728-AF27-4F3CDF30A64E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB292217-61CD-4728-AF27-4F3CDF30A64E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
